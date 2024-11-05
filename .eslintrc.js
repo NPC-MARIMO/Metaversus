@@ -3,9 +3,9 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
+  "extends": [
+    "next",
+    "next/core-web-vitals"
   ],
   parserOptions: {
     ecmaFeatures: {
